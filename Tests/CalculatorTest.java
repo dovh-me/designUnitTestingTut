@@ -36,8 +36,6 @@ class CalculatorTest {
 
         int secondNumber = 0;
 
-        int expectedOutput = 200;
-
         Calculator calculatorTest = new Calculator();
 
         assertThrows(ArithmeticException.class, ()->{
